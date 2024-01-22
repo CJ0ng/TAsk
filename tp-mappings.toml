@@ -1,0 +1,40 @@
+ mt4_au1        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VAU1"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VAU1"]}}
+ mt4_au2        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VAU2"]},            equity = {tables = ['bbook_v_1_2021', 'bbook_v_2_2021'], names = ["VAU2"]}}
+ mt4_au3        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VAU3"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VAU3"]}}
+ mt4_au4        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VAU4"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VAU4"]}}
+ mt4_au5        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VAU5"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VAU5"]}}
+ mt4_au6        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VAU6"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VAU6"]}}
+ mt4_inf02      = {detail = {schemas = ["infinox"],               names = ["IUK"]},             equity = {tables = ['bbook_i_2_2021'],                   names = ["IUK", "IUK_asian"]}}
+ mt4_inf03      = {detail = {schemas = ["infinox"],               names = ["BHS-UK"]},          equity = {tables = ['bbook_i_1_2021'],                   names = ["BHS-UK", "BHS_asian"]}}
+ mt4_inf04      = {detail = {schemas = ["infinox"],               names = ["BHS3", "IUK2"]},    equity = {tables = ['bbook_i_1_2021', 'bbook_i_2_2021'], names = ["BHS3", "BHS2_asian", "IUK2"]}}
+ mt4_inf05      = {detail = {schemas = ["infinox"],               names = ["BHS-CN"]},          equity = {tables = ['bbook_i_1_2021'],                   names = ["BHS-CN"]}}
+ mt4_inf06      = {detail = {schemas = ["infinox"],               names = ["INF06"]},           equity = {tables = ['bbook_i_2_2021'],                   names = ["INF06"]}}
+ mt4_iv         = {detail = {schemas = ["iv"],                    names = ["IV"]},              equity = {tables = ['bbook_i_2_2021'],                   names = ["IV"]}}
+ mt4_opl        = {detail = {schemas = ["opl"],                   names = ["OPL"]},             equity = {tables = ['bbook_v_2_2021'],                   names = ["OPL"]}}
+ mt4_pu         = {detail = {schemas = ["pug"],                   names = ["PUG"]},             equity = {tables = ['bbook_v_2_2021'],                   names = ["PUG"]}}
+ mt4_pu2        = {detail = {schemas = ["pug"],                   names = ["PUG2"]},            equity = {tables = ['bbook_v_2_2021'],                   names = ["PUG2"]}}
+ mt4_pu3        = {detail = {schemas = ["pug"],                   names = ["PUG3"]},            equity = {tables = ['bbook_v_2_2021'],                   names = ["PUG3"]}}
+ mt4_pu4        = {detail = {schemas = ["pug"],                   names = ["PUG4"]},            equity = {tables = ['bbook_v_2_2021'],                   names = ["PUG4"]}}
+ mt4_st2        = {detail = {schemas = ["iv"],                    names = ["IV2"]},             equity = {tables = ['bbook_i_1_2021'],                   names = ["IV2"]}}
+ mt4_uk1        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VUK1"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VUK1"]}}
+ mt4_uk2        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VUK2"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VUK2"]}}
+ mt4_uk3        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VUK3"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VUK3"]}}
+ mt4_uk4        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VUK4"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VUK4"]}}
+ mt4_uk5        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VUK5"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VUK5"]}}
+ mt4_uk6        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VUK6"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VUK6"]}}
+ mt4_uk7        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VUK7"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VUK7"]}}
+ mt4_uk8        = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["VUK8"]},            equity = {tables = ['bbook_v_1_2021'],                   names = ["VUK8"]}}
+ mt4_vgp1       = {detail = {schemas = ["vgx", "vfx-vig", "kcm"], names = ["KCM", "MX", "VT"]}, equity = {tables = ['bbook_v_1_2021', 'bbook_v_2_2021'], names = ["KCM", "MX", "VT"]}}
+ mt4_vgp2       = {detail = {schemas = ["vt"],                    names = ["VT2"]},             equity = {tables = ['bbook_v_2_2021'],                   names = ["VT2"]}}
+ mt4_vgp3       = {detail = {schemas = ["vt"],                    names = ["VT3"]},             equity = {tables = ['bbook_v_2_2021'],                   names = ["VT3"]}}
+ mt4_vgp4       = {detail = {schemas = ["vt"],                    names = ["VT4"]},             equity = {tables = ['bbook_v_2_2021'],                   names = ["VT4"]}}
+ mt4_vgp5       = {detail = {schemas = ["vt"],                    names = ["VT5"]},             equity = {tables = ['bbook_v_2_2021'],                   names = ["VT5"]}}
+ mt4_vgpuk      = {detail = {schemas = ["vgp_uk"],                names = ["VGP_UK"]},          equity = {tables = ['bbook_v_1_2021', 'bbook_v_2_2021'], names = ["VGP_UK"]}}
+ mt4_vida08     = {detail = {schemas = ["infinox"],               names = ["INF08"]},           equity = {tables = ['bbook_i_2_2021'],                   names = ["INF08"]}}
+ mt5_alphatick  = {detail = {schemas = ["at"],                    names = ["AT_MT5"]},          equity = {tables = ['bbook_v_2_2021'],                   names = ["AT_MT5"]}}
+ mt5_au         = {detail = {schemas = ["vfx", "vfx-vig"],        names = ["MT5_VFX"]},         equity = {tables = ['bbook_v_2_2021'],                   names = ["MT5-VFX", "Moneta", "VT_MT5"]}}
+ mt5_inf        = {detail = {schemas = ["infinox"],               names = ["BHS-UK-MT5"]},      equity = {tables = ['bbook_i_2_2021'],                   names = ["BHS_asian-MT5", "BHS-CN-MT5", "BHS-UK-MT5"]}}
+ mt5_pu         = {detail = {schemas = ["pug"],                   names = ["PUG_MT5"]},         equity = {tables = ['bbook_v_2_2021'],                   names = ["MT5-PUG"]}}
+ mt5_startrader = {detail = {schemas = ["iv"],                    names = ["STARTRADER_MT5"]},  equity = {tables = ['bbook_i_2_2021'],                   names = ["STARTRADER_MT5"]}}
+ mt5_uk         = {detail = {schemas = ["vgp_uk"],                names = ["MT5-UK"]},          equity = {tables = ['bbook_i_2_2021'],                   names = ["MT5-UK"]}}
+ mt5_vida       = {detail = {schemas = ["infinox"],               names = ["INF08_MT5"]},       equity = {tables = ['bbook_i_2_2021'],                   names = ["INF08_MT5"]}}
